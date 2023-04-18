@@ -52,7 +52,7 @@ $$
 ![alt-text](https://github.com/Shlorki/NumericalHW4/blob/main/Images/waveRref_animation.gif)
 
 ## Heat Equation
-We solve the heat equation $u_t=cu_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$, plot the heat map and the total energy of the system up to the critical time $t*$ when the steady state is reached. The steady state was determined by terminating time-stepping when the maximum difference in temperature between the next time-step and the current time-step is $10^{-6}$. The initial conditions are
+We solve the heat equation $u_t=cu_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$, plot the heat map and the total energy of the system up to the critical time t<sup>*</sup> when the steady state is reached. One set of boundary conditions is homogeneous Dirichlet (absorbing) and the other is homogeneous Neumann (reflecting). The steady state was determined by terminating time-stepping when the maximum difference in temperature between the next time-step and the current time-step is $10^{-6}$. The initial conditions are
 <p>
 $$
 g(x) = \begin{cases} 
@@ -64,6 +64,7 @@ $$
 </p>
 
 ### Absorbing
+t<sup>*</sup> = $30.14$
 
 <a href="https://github.com/Shlorki/NumericalHW2">
   <img src="Images/heatabs.png" alt="helmpt" width="500" height="350">
@@ -71,6 +72,7 @@ $$
 </a>
 
 ### Reflecting
+t<sup>*</sup> = $16.82$
 
 <a href="https://github.com/Shlorki/NumericalHW2">
   <img src="Images/heatref.png" alt="helmpt" width="500" height="350">
