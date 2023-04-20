@@ -32,7 +32,7 @@ The modules required in Python are
 2. Install required modules
 
 ## Wave Equation
-We solve the wave equation $u_{tt}=u_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$ and animate the solution through one unit of time. One set of boundary conditions is homogeneous Dirichlet boundary conditions (absorbing) and the other is homogeneous Dirichlet at $0$ and Neumann at $1$ (half-reflecting). The initial conditions are
+We solve the wave equation $u_{tt}=u_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$ and animate the solution through one unit of time. One set of boundary conditions is homogeneous Dirichlet boundary conditions (mirroring) and the other is homogeneous Dirichlet at $0$ and Neumann at $1$ (left-mirroring/right-reflecting). The initial conditions are
 <p>
 $$
 g(x) = \begin{cases} 
@@ -43,16 +43,16 @@ g(x) = \begin{cases}
 $$
 </p>
 
-### Absorbing
+### Mirroring
 
 ![alt-text](https://github.com/Shlorki/NumericalHW4/blob/main/Images/waveabs_animation.gif)
 
-### Half-Reflecting
+### Left Mirroring and Right Reflecting
 
 ![alt-text](https://github.com/Shlorki/NumericalHW4/blob/main/Images/waveRref_animation.gif)
 
 ## Heat Equation
-We solve the heat equation $u_t=cu_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$, plot the heat map and the total energy of the system up to the critical time t<sup>*</sup> when the steady state is reached. One set of boundary conditions is homogeneous Dirichlet (absorbing) and the other is homogeneous Neumann (reflecting). The steady state was determined by terminating time-stepping when the maximum difference in temperature between the next time-step and the current time-step is $10^{-6}$. The initial conditions are
+We solve the heat equation $u_t=cu_{xx}$ with two different sets of boundary conditions over the interval $[0,1]$, plot the heat map and the total energy of the system up to the critical time t<sup>*</sup> when the steady state is reached. One set of boundary conditions is homogeneous Dirichlet (absorbing) and the other is homogeneous Neumann (insulating). The steady state was determined by terminating time-stepping when the maximum difference in temperature between the next time-step and the current time-step is $10^{-6}$. The initial conditions are
 <p>
 $$
 g(x) = \begin{cases} 
@@ -71,7 +71,7 @@ t<sup>*</sup> = $30.14$
   <img src="Images/energyabs.png" alt="helmpt" width="500" height="350">
 </a>
 
-### Reflecting
+### Insulating
 t<sup>*</sup> = $16.82$
 
 <a href="https://github.com/Shlorki/NumericalHW2">
