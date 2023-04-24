@@ -45,7 +45,7 @@ $$
 
 ### Mirroring
 
-![alt-text](https://github.com/Shlorki/NumericalHW4/blob/main/Images/waveabs_animation.gif)
+![alt-text](https://github.com/Shlorki/NumericalHW4/blob/main/Images/wavemirr_animation.gif)
 
 ### Left Mirroring and Right Reflecting
 
@@ -75,8 +75,8 @@ t<sup>*</sup> = $30.14$
 t<sup>*</sup> = $16.82$
 
 <a href="https://github.com/Shlorki/NumericalHW2">
-  <img src="Images/heatref.png" alt="helmpt" width="500" height="350">
-  <img src="Images/energyref.png" alt="helmpt" width="500" height="350">
+  <img src="Images/heatins.png" alt="helmpt" width="500" height="350">
+  <img src="Images/energyins.png" alt="helmpt" width="500" height="350">
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
